@@ -1,0 +1,11 @@
+{
+  "mqtt_client_id": "rpi-dht22",
+  "mqtt_host": "192.168.0.210",
+  "mqtt_port": "1883",
+  "verbose": "true",
+  "gpio": "4",
+  "topics": {
+    "temperature": "halti/datacenter/temperature",
+    "humidity": "halti/datacenter/humidity"
+  }
+}
