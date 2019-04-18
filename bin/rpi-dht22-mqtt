@@ -7,7 +7,8 @@ from rpi_dht22_mqtt.logger import DHT22Logger
 
 def main(argv):
     if not argv or len(argv) != 1:
-        print 'rpi-dht22-mqtt <config file>'
+        print('rpi-dht22-mqtt <config file>')
+
     else:
         with open(argv[0]) as data_file:
             config = json.load(data_file)
